@@ -10,8 +10,8 @@ var Examples = require('Examples');
 
 // Load foundation
 require('style!css!foundation-sites/dist/foundation.min.css');
-// Load app.css
-require('style!css!applicationStyles')
+// Load app.scss
+require('style!css!sass!applicationStyles')
 
 $(document).foundation();
 
